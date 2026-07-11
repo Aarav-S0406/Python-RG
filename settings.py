@@ -1,4 +1,9 @@
-p_length=40
-p_width=60
-s_length=800
-s_width=600
+player_height=40
+player_width=60
+player_speed=10
+
+screen_length=800
+screen_width=600
+
+title="Python RG"
+fps=60
