@@ -1,9 +1,12 @@
-player_height=40
-player_width=60
-player_speed=10
+PLAYER_HEIGHT = 40
+PLAYER_WIDTH = 60
+PLAYER_SPEED = 10
 
-screen_length=800
-screen_width=600
+SCREEN_HEIGHT = 800
+SCREEN_WIDTH = 600
 
-title="Python RG"
-fps=60
+BLACK = (0,0,0)
+BG = (50,50,50)
+
+TITLE = "Python RG"
+FPS = 60
