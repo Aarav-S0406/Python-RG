@@ -3,11 +3,11 @@ from entities.player import playr
 from settings import SCREEN_HEIGHT, SCREEN_WIDTH, TITLE, FPS, BG
 
 pygame.init()
-screen=pygame.display.set_mode((SCREEN_HEIGHT, SCREEN_WIDTH))
+screen=pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption(f"{TITLE}")
 
 sprite_sheet_image = pygame.image.load('assets/images/Player.png').convert_alpha()
-plr1 = playr(sprite_sheet_image)
+plr1 = playr(sprite_sheet_image, screen)
 
 running=True
 clock=pygame.time.Clock()
@@ -20,9 +20,11 @@ while running:
         if event.type==pygame.QUIT:
             running=False
 
+    screen.fill(BG)
+
     plr1.update()
 
-    screen.fill(BG)
+    #plr1.draw()
     
     pygame.display.flip()
     

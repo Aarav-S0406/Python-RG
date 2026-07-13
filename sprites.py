@@ -25,14 +25,6 @@ pygame.display.set_caption('spritesheets')
 sprite_sheet_image = pygame.image.load("assets/images/Player.png").convert_alpha()
 sprite_sheet = SpriteSheet(sprite_sheet_image)
 
-# def get_image(sheet, frame, width, height, scale, color):
-#     image=pygame.Surface((width, height)).convert_alpha()
-#     image.blit(sheet, (0, 0), ((frame*width), 0, width, height)) #spawns sprite at (0, 0), starts from (0, 0) and displays till (width, height)
-#     image=pygame.transform.scale(image, (width*scale, height*scale))
-#     image.set_colorkey(color)
-
-#     return image
-
 # create animation list
 animation_list = []
 animation_steps = [6,6,6,6]
