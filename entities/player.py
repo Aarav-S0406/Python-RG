@@ -2,24 +2,24 @@ import pygame
 from settings import PLAYER_HEIGHT, PLAYER_WIDTH, SCREEN_HEIGHT, SCREEN_WIDTH, PLAYER_SPEED, BLACK
 
 class playr():
-    def __init__(self, image, screen):
+    def __init__(self, screen):
         self.speed=PLAYER_SPEED
         self.x=10   #spawn coord
         self.y=10
         self.camera_x=0
         self.camera_y=0
-        self.sheet=image #sprite
+        self.sheet= pygame.image.load('assets/images/Player.png').convert_alpha() #sprite
         self.screen=screen
-        self.width=32
+        self.width=32  #sprite dimensions
         self.height=32
-        self.scale=3
+        self.scale=3   #sprite scale
         self.color=BLACK
         #animation
-        self.frame=0
-        self.action=0
+        self.frame=0   #tracks frame number of each animation
+        self.action=0  #switches between different player action sprites
         self.last_update = pygame.time.get_ticks()
         self.animation_list = []
-        self.animation_steps = [6,6,6,6,4,4,4]
+        self.animation_steps = [6,6,6,6,4,4,4] #total number of frames per animation
         self.animation_cooldown = 150
         self.step_counter=0
         self.load_animation()
@@ -106,4 +106,4 @@ class playr():
         self.movement()
         self.animate()
         self.draw(self.screen)
-        print(len(self.animation_list))
+        

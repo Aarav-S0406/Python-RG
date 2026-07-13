@@ -1,13 +1,15 @@
 import pygame
 from entities.player import playr
 from settings import SCREEN_HEIGHT, SCREEN_WIDTH, TITLE, FPS, BG
+from world.terrain import world
 
 pygame.init()
 screen=pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption(f"{TITLE}")
 
-sprite_sheet_image = pygame.image.load('assets/images/Player.png').convert_alpha()
-plr1 = playr(sprite_sheet_image, screen)
+
+plr1 = playr(screen)
+map=world(screen)
 
 running=True
 clock=pygame.time.Clock()
@@ -21,6 +23,8 @@ while running:
             running=False
 
     screen.fill(BG)
+
+    map.draw(screen)
 
     plr1.update()
 
