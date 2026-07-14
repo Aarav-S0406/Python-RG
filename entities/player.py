@@ -4,19 +4,17 @@ from settings import PLAYER_HEIGHT, PLAYER_WIDTH, SCREEN_HEIGHT, SCREEN_WIDTH, P
 class playr():
     def __init__(self, screen):
         self.speed=PLAYER_SPEED
-        self.x=10   #spawn coord
-        self.y=10
-        self.camera_x=0
-        self.camera_y=0
-        self.sheet= pygame.image.load('assets/images/Player.png').convert_alpha() #sprite
+        self.x = SCREEN_WIDTH//2   #spawn coord
+        self.y = SCREEN_HEIGHT//2
         self.screen=screen
-        self.width=32  #sprite dimensions
-        self.height=32
-        self.scale=3   #sprite scale
-        self.color=BLACK
+        self.sheet = pygame.image.load('assets/images/Player.png').convert_alpha() #sprite
+        self.width = 32  #sprite dimensions
+        self.height = 32
+        self.scale = 3   #sprite scale
+        self.color = BLACK
         #animation
-        self.frame=0   #tracks frame number of each animation
-        self.action=0  #switches between different player action sprites
+        self.frame = 0   #tracks frame number of each animation
+        self.action = 0  #switches between different player action sprites
         self.last_update = pygame.time.get_ticks()
         self.animation_list = []
         self.animation_steps = [6,6,6,6,4,4,4] #total number of frames per animation
@@ -49,7 +47,7 @@ class playr():
         pass
 
     def movement(self):
-        keys=pygame.key.get_pressed()
+        keys = pygame.key.get_pressed()
 
         if keys[pygame.K_w]:
             self.action=5
@@ -85,14 +83,14 @@ class playr():
         if self.x<0:
             self.x=0
         if self.x > SCREEN_WIDTH-PLAYER_WIDTH:
-            self.x= SCREEN_WIDTH-PLAYER_WIDTH
-        if self.y< 0:
-            self.y= 0
+            self.x = SCREEN_WIDTH-PLAYER_WIDTH
+        if self.y < 0:
+            self.y = 0
         if self.y > SCREEN_HEIGHT-PLAYER_HEIGHT:
-            self.y= SCREEN_HEIGHT-PLAYER_HEIGHT
+            self.y = SCREEN_HEIGHT-PLAYER_HEIGHT
 
-    def draw(self, screen):
-        screen.blit(self.image, (self.x-self.camera_x, self.y-self.camera_y))
+    def draw(self, screen, camera):
+        screen.blit(self.image, (self.x-camera.x, self.y-camera.y))
 
     def update(self):
         self.boundary()
@@ -105,5 +103,5 @@ class playr():
         )
         self.movement()
         self.animate()
-        self.draw(self.screen)
+        
         
