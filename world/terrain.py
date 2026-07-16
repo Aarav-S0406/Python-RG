@@ -5,6 +5,10 @@ from settings import SCREEN_HEIGHT, SCREEN_WIDTH, TITLE, FPS, BG, BLACK, TILE_SI
 class world():
     def __init__(self, screen):
         self.create_map()
+        self.tiles={
+            self.grass : pygame.image.load('assets/images/grass.png').convert_alpha(),
+            self.dirt : pygame.image.load('assets/images/dirt.png').convert_alpha()
+        }
         self.grass = pygame.image.load('assets/images/grass.png').convert_alpha()
         self.grass = pygame.transform.scale(self.grass, (TILE_SIZE, TILE_SIZE))
         self.dirt = pygame.image.load('assets\images\dirt.png').convert_alpha()
