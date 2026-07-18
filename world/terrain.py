@@ -1,20 +1,31 @@
 import pygame
 from entities.player import playr
-from settings import SCREEN_HEIGHT, SCREEN_WIDTH, TITLE, FPS, BG, BLACK, TILE_SIZE
+from settings import SCREEN_HEIGHT, SCREEN_WIDTH, TITLE, FPS, BG, BLACK, TILE_SIZE, GRASS, ROCK, DIRT
 
 class world():
     def __init__(self, screen):
         self.create_map()
+        self.world_x=0
+        self.world_y=0
         self.tiles={
-            self.grass : pygame.image.load('assets/images/grass.png').convert_alpha(),
-            self.dirt : pygame.image.load('assets/images/dirt.png').convert_alpha()
+            GRASS : {
+                "image" : pygame.image.load('assets/images/grass.png').convert_alpha(),
+                "solid" : False
+            },
+            DIRT : {
+                "image" : pygame.image.load('assets/images/dirt.png').convert_alpha(),
+                "solid" : False
+            },
+            ROCK : {
+                "image" : pygame.image.load('assets/images/Rock.png').convert_alpha(),
+                "solid" : True
+            }
         }
-        self.grass = pygame.image.load('assets/images/grass.png').convert_alpha()
-        self.grass = pygame.transform.scale(self.grass, (TILE_SIZE, TILE_SIZE))
-        self.dirt = pygame.image.load('assets\images\dirt.png').convert_alpha()
-        self.dirt = pygame.transform.scale(self.dirt, (TILE_SIZE, TILE_SIZE))
+        
+        # self.grass = pygame.transform.scale(self.grass, (TILE_SIZE, TILE_SIZE))
+        # self.dirt = pygame.transform.scale(self.dirt, (TILE_SIZE, TILE_SIZE))
+        # self.rock = pygame.transform.scale(self.rock, (TILE_SIZE, TILE_SIZE))
         self.screen=screen
-        self.scale=4
 
     def create_map(self):
         self.world = [
@@ -26,7 +37,7 @@ class world():
             [0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0],
             [0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0,0],
             [0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0],
-            [0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0],
+            [0,0,0,0,1,0,0,0,3,0,0,1,0,0,0,3,0,0,0,1,0,0,0,0,0],
             [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
             [0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0],
             [0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0],
@@ -40,15 +51,14 @@ class world():
 
     def draw(self, screen, camera):
         for row_index, row in enumerate(self.world):
-            for column_index, column in enumerate(row):
+            for column_index, tile in enumerate(row):
 
-                world_x = TILE_SIZE * column_index
-                world_y = TILE_SIZE * row_index
-                screen_x = world_x - camera.x
-                screen_y = world_y - camera.y
-
-                if column==1:
-                    screen.blit(self.dirt, (screen_x, screen_y))
-                
-                elif column==0:
-                    screen.blit(self.grass, (screen_x, screen_y))
+                self.world_x = TILE_SIZE * column_index
+                self.world_y = TILE_SIZE * row_index
+                screen_x = self.world_x - camera.x
+                screen_y = self.world_y - camera.y
+              
+                screen.blit(self.tiles[tile]["image"], (screen_x, screen_y))
+    
+    def collision(self):
+        pass

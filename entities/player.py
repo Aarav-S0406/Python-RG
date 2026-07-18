@@ -10,7 +10,7 @@ class playr():
         self.sheet = pygame.image.load('assets/images/Player.png').convert_alpha() #sprite
         self.width = 32  #sprite dimensions
         self.height = 32
-        self.scale = 3   #sprite scale
+        self.scale = 1   #sprite scale
         self.color = BLACK
         #animation
         self.frame = 0   #tracks frame number of each animation
