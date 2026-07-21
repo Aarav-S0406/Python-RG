@@ -61,4 +61,7 @@ class world():
                 screen.blit(self.tiles[tile]["image"], (screen_x, screen_y))
     
     def collision(self):
+        if self.tiles["solid"]:
+            print("1")
+        self.world_y
         pass
