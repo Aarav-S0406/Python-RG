@@ -7,6 +7,8 @@ class world():
         self.create_map()
         self.world_x=0
         self.world_y=0
+        self.screen_x=0
+        self.screen_y=0
         self.tiles={
             GRASS : {
                 "image" : pygame.image.load('assets/images/grass.png').convert_alpha(),
@@ -55,13 +57,28 @@ class world():
 
                 self.world_x = TILE_SIZE * column_index
                 self.world_y = TILE_SIZE * row_index
-                screen_x = self.world_x - camera.x
-                screen_y = self.world_y - camera.y
+                self.screen_x = self.world_x - camera.x
+                self.screen_y = self.world_y - camera.y
               
-                screen.blit(self.tiles[tile]["image"], (screen_x, screen_y))
+                screen.blit(self.tiles[tile]["image"], (self.screen_x, self.screen_y))
     
-    def collision(self):
-        if self.tiles["solid"]:
-            print("1")
-        self.world_y
-        pass
+    def is_solid(self, player):
+
+        """
+        Returns True if the position is blocked.
+        Returns False if it can be walked on.
+        """
+
+        # Convert world coordinates to tile coordinates
+        tile_col_index = player.x // TILE_SIZE
+        tile_row_index = player.y // TILE_SIZE
+
+        # Find which tile is at that position
+        tile=self.world[tile_row_index][tile_col_index]
+
+        # Check whether that tile is solid
+        state = bool(self.tiles[tile]["solid"])
+        print(state)
+
+        # Return the answer
+        return state
