@@ -30,8 +30,8 @@ while running:
     cmr1.update(plr1)
 
     map.draw(screen, cmr1)
-    map.is_solid(plr1)
     plr1.draw(screen, cmr1)
+    plr1.collisions(map)
 
     pygame.display.flip()
     

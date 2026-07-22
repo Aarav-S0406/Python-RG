@@ -49,10 +49,10 @@ class playr():
     def movement(self):
         keys = pygame.key.get_pressed()
 
-        if keys[pygame.K_w]:
-            self.action=5
-            self.y-=self.speed
-        elif keys[pygame.K_s]:
+        # if keys[pygame.K_w]:
+        #     self.action=5
+        #     self.y-=self.speed
+        if keys[pygame.K_s]:
             self.action=3
             self.y+=self.speed
         elif keys[pygame.K_a]:
@@ -67,6 +67,22 @@ class playr():
                 self.action=0
             else:
                 self.action=self.action-2
+
+    def collisions(self, world):
+        keys = pygame.key.get_pressed()
+
+        if keys[pygame.K_w]:
+            self.action=5
+            if world.is_solid(self.x, self.y - self.speed)==False:
+                self.y-=self.speed
+            else:
+                self.y-=self.speed
+
+        # if keys[pygame.K_s]:
+        #     if world.is_solid(self.x, self.y + self.speed)==False:
+        #         self.y+=self.speed
+        #     else:
+        #         self.y+=self.speed
 
     def animate(self):
         
