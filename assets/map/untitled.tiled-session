@@ -1,0 +1,121 @@
+{
+    "activeFile": "untitled.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Floors_Tiles.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "HouseRoofs.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "HouseWalls.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Props.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "Rocks.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Roofs.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Shadows.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Vegetation.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Wall_Tiles.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Walls.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Water_tiles.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "road sign.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "treeModel2_Size_03.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "treeModel2_Size_04.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "treeSize_02.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "treeSize_05.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "untitled.tmx": {
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 1103,
+                "y": 2142.5
+            }
+        },
+        "untitled.tmx#Wall_Tiles": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/sanya/OneDrive/Desktop/college/python/RPG/assets/images",
+    "last.imagePath": "C:/Users/sanya/OneDrive/Desktop/college/python/RPG/assets/Sprites/Environment/Props/Static/Trees/Model_01",
+    "map.fixedSize": true,
+    "map.height": 1000,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 1000,
+    "openFiles": [
+        "untitled.tmx",
+        "HouseWalls.tsx",
+        "Walls.tsx",
+        "treeModel2_Size_03.tsx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "treeModel2_Size_03.tsx",
+        "Walls.tsx",
+        "HouseWalls.tsx",
+        "untitled.tmx",
+        "HouseRoofs.tsx",
+        "Wall_Tiles.tsx",
+        "Props.tsx",
+        "Roofs.tsx",
+        "treeModel2_Size_04.tsx",
+        "treeSize_02.tsx",
+        "Rocks.tsx",
+        "Vegetation.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

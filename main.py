@@ -31,7 +31,8 @@ while running:
 
     map.draw(screen, cmr1)
     plr1.draw(screen, cmr1)
-    plr1.collisions(map)
+    plr1.movement(map)
+    
 
     pygame.display.flip()
     

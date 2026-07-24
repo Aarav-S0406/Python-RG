@@ -46,43 +46,47 @@ class playr():
     def input(self):
         pass
 
-    def movement(self):
-        keys = pygame.key.get_pressed()
-
-        # if keys[pygame.K_w]:
-        #     self.action=5
-        #     self.y-=self.speed
-        if keys[pygame.K_s]:
-            self.action=3
-            self.y+=self.speed
-        elif keys[pygame.K_a]:
-            self.action=4
-            self.image=pygame.transform.flip(self.image, True, False)
-            self.x-=self.speed
-        elif keys[pygame.K_d]:
-            self.action=4
-            self.x+=self.speed
-        else:
-            if self.action<=0:
-                self.action=0
-            else:
-                self.action=self.action-2
-
-    def collisions(self, world):
+    def movement(self, world):
         keys = pygame.key.get_pressed()
 
         if keys[pygame.K_w]:
             self.action=5
             if world.is_solid(self.x, self.y - self.speed)==False:
                 self.y-=self.speed
+            
+        if keys[pygame.K_s]:
+            self.action=3
+            if world.is_solid(self.x, self.y - self.speed)==False:
+                self.y+=self.speed
+        
+        elif keys[pygame.K_a]:
+            self.action=4
+            self.image=pygame.transform.flip(self.image, True, False)
+            if world.is_solid(self.x, self.y - self.speed)==False:
+                self.x-=self.speed
+           
+        elif keys[pygame.K_d]:
+            self.action=4
+            if world.is_solid(self.x, self.y - self.speed)==False:
+                self.x+=self.speed
+  
+        else:
+            if self.action<=0:
+                self.action=0
             else:
-                self.y-=self.speed
+                self.action=self.action-2   
 
         # if keys[pygame.K_s]:
         #     if world.is_solid(self.x, self.y + self.speed)==False:
         #         self.y+=self.speed
         #     else:
         #         self.y+=self.speed
+
+        if keys[pygame.K_d]:
+            if world.is_solid(self.x-self.speed, self.y)==False:
+                self.x-=self.speed
+            
+
 
     def animate(self):
         
@@ -117,7 +121,7 @@ class playr():
             self.scale,
             self.color
         )
-        self.movement()
+        self.movement(map)
         self.animate()
         
         
