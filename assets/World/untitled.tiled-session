@@ -1,0 +1,940 @@
+{
+    "activeFile": "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Bridges.tmx": {
+            "scale": 0.4653515625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 255.72064131620914,
+                "y": 384.65541845043236
+            }
+        },
+        "Bridges.tmx#Bridges": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation10": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation11": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation12": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation13": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation14": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation2": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation3": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation4": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation5": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation6": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation8": {
+            "scaleInDock": 1
+        },
+        "Bridges.tmx#Water_animation9": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -129.83333333333331,
+                "y": -126.33333333333331
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#Bull_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#Bull_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#Calf_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#Chick_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#Lamb_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#Piglet_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#Rooster_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#Sheep_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#Turkey_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#calf_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#chick_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#lamb_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#piglet_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#rooster_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#sheep_shaddow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx#turkey_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Exterior.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 9,
+                "y": 31.333333333333314
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Exterior.tmx#Decorative_cracks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Exterior.tmx#Dragon_body": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Exterior.tmx#Dragon_head": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Exterior.tmx#Dragon_tail": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Exterior.tmx#Dragon_wing_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Exterior.tmx#Exterior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Exterior.tmx#Walls_street": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -21.5,
+                "y": -46
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Altar": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Candelabra": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Candelabra_alternative_fit": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Candles": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Interior_objects": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Mon1k_Pray": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Parishioner1": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Parishioner10": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Parishioner11": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Parishioner2": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Priest_speech": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Statues": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/chapel/Tiled_files/Interior.tmx#Walls_Interior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 160.83333333333331,
+                "y": 328
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#Objects": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#Water_coasts_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#Water_coasts_animation_decorative_cracks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#Water_detilazation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#cracked_tiles": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#cracked_tiles_floor": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#doors_lever_chest_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#fire_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#fire_animation2": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#trap_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx#walls_floor": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Characters.tmx": {
+            "scale": 3.5439453125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -128.10581427390468,
+                "y": 128.10581427390468
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Characters.tmx#Customer": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Characters.tmx#Customer_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Characters.tmx#Master": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Characters.tmx#Master_Idle": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Characters.tmx#Master_Idle_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Exterior.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 27.25,
+                "y": -10.5
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Exterior.tmx#Doors_windows_animations": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Exterior.tmx#Exterior_house": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Exterior.tmx#Walls_street": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Interior.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -35.5,
+                "y": 28.25
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Interior.tmx#Customer": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Interior.tmx#Doors_windows_animations": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Interior.tmx#Forge": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Interior.tmx#Interior_objects": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Interior.tmx#Light_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Interior.tmx#Master": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/glassblowers workshop/Tiled_files/Interior.tmx#Walls_interior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Exterior.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -29.75,
+                "y": 80
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Exterior.tmx#Decorative_cracks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Exterior.tmx#Exterior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Exterior.tmx#Flags_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Exterior.tmx#Walls_street": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Exterior.tmx#Windows_doors": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_1st_floor.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -65.66666666666669,
+                "y": -1.3333333333333428
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_1st_floor.tmx#Citizen4_Idle_with_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_1st_floor.tmx#Citizen4_Walk_with_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_1st_floor.tmx#Guildmaster": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_1st_floor.tmx#Interior_objects": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_1st_floor.tmx#Talking_people": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_1st_floor.tmx#Walls_interior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_1st_floor.tmx#Windows_doors": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_1st_floor.tmx#x500": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -58.25,
+                "y": -5.75
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Attacked_Manequin1_with_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Attacked_Manequin2_with_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Attacked_Manequin3_with_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Fighter_sword1_with_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Fighter_sword1_without_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Fire": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Interior_objects": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Mage3": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Reader1": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Reader2": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#Walls_interior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/guild hall/Tiled_files/Interior_2nd_floor.tmx#x500": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 83,
+                "y": -31.5
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Citizen1_Idle_without_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Citizen1_Walk_without_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Cultists_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer1_bends_over": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer1_idle": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer1_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer1_straightens_up": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer1_writing": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer2_Idle": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer2_bends_over": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer2_exploring": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer2_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Discoverer2_straightens_up": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Leader_shadow": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Leader_summon": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Characters.tmx#Mon1k_Pray": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 20,
+            "viewCenter": {
+                "x": -66.33333333333337,
+                "y": -66
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx#Cracked_tiles_exterior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx#Discoverer1_writing": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx#Discoverer2_Idle": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx#Exterior_objects": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx#Spots": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx#Tiles_exterior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx#Trees_grass_alternative_fit": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx#Water_coasts": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx#Water_detilazation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2,
+                "y": 24
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Cracked_tiles_interior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Fire_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Ghost": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Leader_summon": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Lever": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Mon1k_Pray": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Objects_interior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Spikes": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Walls_floor": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#blades_trap": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#lattice": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_interior.tmx#Сhest": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 180.5,
+                "y": 429.75
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Bridges": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation10": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation11": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation12": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation13": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation14": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation2": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation3": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation4": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation5": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation6": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation8": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/Bridges.tmx#Water_animation9": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 256.125,
+                "y": 384.125
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Bridges": {
+            "scaleInDock": 2
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation10": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation11": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation12": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation13": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation14": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation2": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation3": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation4": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation5": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation6": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation8": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/assets/sprite/structures/PNG_n_Tiled/Bridges.tmx#Water_animation9": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 236.375,
+                "y": 172.5
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Sword_Death": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Sword_Hurt": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Sword_Idle": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Sword_Run": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Sword_Run_Attack": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Sword_Walk": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Sword_Walk_Attack": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Sword_attack": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Unarmed_Death": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Unarmed_Hurt": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Unarmed_Idle": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Unarmed_Run": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#Unarmed_Walk": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#shadow_death": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx#shadow_single": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -165.75,
+                "y": -22
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#Doors_windows_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#Smoke_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#Trees_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#bird_fly_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#bird_jump_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#cat_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#exterior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#ground_grass_details": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#house_details": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#для анимации чх200": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#для анимации чх300": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#для скринов — копия": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx#для скринов24": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -81.75,
+                "y": 17.5
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx#Doors_windows_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx#Smoke_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx#Trees_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx#bird_fly_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx#bird_jump_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx#cat_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx#exterior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx#ground_grass_details": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx#house_details": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Interior1.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -47.166666666666686,
+                "y": -5
+            }
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Interior1.tmx#Doors_windows_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Interior1.tmx#Interior": {
+            "scaleInDock": 1
+        },
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Interior1.tmx#walls_floor": {
+            "scaleInDock": 1
+        },
+        "Floors_Tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "HouseRoofs.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "HouseWalls.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Map.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2154.333333333333,
+                "y": 2044.6666666666665
+            }
+        },
+        "Props.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Rocks.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Roofs.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Ruins.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Shadows.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Vegetation.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Wall_Tiles.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Walls.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Water_tiles.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "bridge.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 1
+        },
+        "lighthouse-removebg-preview.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 4
+        },
+        "mountains.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "road sign.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "ruined temple.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "treeModel2_Size_03.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "treeModel2_Size_04.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "treeSize_02.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "treeSize_05.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "untitled.tmj": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1248,
+                "y": 669.3333333333333
+            }
+        },
+        "untitled.tmj#Wall_Tiles": {
+            "scaleInDock": 1
+        },
+        "untitled.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 2452,
+                "y": 1948
+            }
+        },
+        "untitled.tmx#Wall_Tiles": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/sanya/OneDrive/Desktop/college/python/RPG/assets/images",
+    "last.imagePath": "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruins/PNG",
+    "map.fixedSize": true,
+    "map.height": 1000,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 1000,
+    "openFiles": [
+        "Map.tmx",
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "Map.tmx",
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/ruined temple/Tiled_files/Ruined_temple_exterior.tmx",
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/mobs/Tiled/Animals.tmx",
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/CHARACTER/Tiled_files/Base_boy.tmx",
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Interior1.tmx",
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior — копия.tmx",
+        "C:/Users/sanya/OneDrive/Desktop/models/pixie farms/HOME/Tiled_files/Exterior.tmx",
+        "HouseWalls.tsx",
+        "mountains.tsx",
+        "C:/Users/sanya/OneDrive/Desktop/Project/assets/sprite/structures/dungeon floor/Tiled_files/Dungeon1.tmx",
+        "lighthouse-removebg-preview.tsx",
+        "ruined temple.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
