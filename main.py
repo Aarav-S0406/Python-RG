@@ -12,7 +12,11 @@ pygame.display.set_caption(f"{TITLE}")
 tile_manager = TileManager("assets/World/Map.tmx")
 cmr1=Camra()
 plr1 = playr(screen)
-map=world("assets/World/Map.tmx", screen, tile_manager)
+
+map=world("assets/World/Map.tmx", 
+          screen, 
+          tile_manager
+)
 
 running=True
 clock=pygame.time.Clock()
@@ -27,8 +31,8 @@ while running:
 
     screen.fill(BG)
 
-    plr1.update()
     cmr1.update(plr1)
+    plr1.update()
 
     map.draw(screen, cmr1)
     plr1.draw(screen, cmr1)

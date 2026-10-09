@@ -1,1 +1,6 @@
 assets/sounds/
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz

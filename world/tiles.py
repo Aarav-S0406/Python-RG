@@ -5,9 +5,12 @@ class TileManager():
 
     def __init__(self, map_path):
         self.tiles = {}
+        self.collision_tiles = {}
+        self.collision_rects = []
         self.map_path=map_path
         self.load_tiles()
         self.build_dictionary()
+        self.build_collisions()
   
 
 
@@ -18,7 +21,7 @@ class TileManager():
 
 
     def build_dictionary(self):
-        count=0
+     
         for layer in self.tmx.visible_layers:
             if hasattr(layer, "data"):
                 for x, y, gid in layer:
@@ -29,10 +32,57 @@ class TileManager():
                             "image": self.tmx.get_tile_image_by_gid(gid),
                             "properties": self.tmx.get_tile_properties_by_gid(gid)
                         }
-                    count+=1
-        print(count)
-
         return self.tiles
+
+    def build_collisions(self):
+
+        self.collision_rects = []
+
+        # -------------------------
+        # Collision 1 - Tile Layer
+        # -------------------------
+
+        layer = self.tmx.get_layer_by_name("Collisions1")
+
+        for x, y, gid in layer:
+
+            if gid == 0:
+                continue
+
+            rect = pygame.Rect(
+                x * self.tmx.tilewidth,
+                y * self.tmx.tileheight,
+                self.tmx.tilewidth,
+                self.tmx.tileheight
+            )
+
+            self.collision_rects.append(rect)
+
+        # -------------------------
+        # Collision 2 - Object Layer
+        # -------------------------
+
+        layer = self.tmx.get_layer_by_name("Collisions2")
+
+        for obj in layer:
+
+            rect = pygame.Rect(
+                obj.x,
+                obj.y,
+                obj.width,
+                obj.height
+            )
+
+            self.collision_rects.append(rect)
+
+    # def build_collisions(self):
+
+    #     for layer in self.tmx.layers:
+    #         print(
+    #             layer.name,
+    #             type(layer),
+    #             hasattr(layer, "data")
+    #         )
 
     def get_image(self, gid):
         image = self.tiles[gid]["image"]
@@ -66,3 +116,8 @@ class TileManager():
 #                 }
 
 # print(tiles)
+
+
+# tmx = pytmx.load_pygame("assets/World/Map.tmx")
+# for layer in tmx.visible_layers:
+#     print(type(layer.data))

@@ -1,6 +1,7 @@
 import pygame
 import pytmx
-from settings import SCREEN_HEIGHT, SCREEN_WIDTH, TITLE, FPS, BG, BLACK, TILE_SIZE, GRASS, ROCK, DIRT
+#from settings import SCREEN_HEIGHT, SCREEN_WIDTH, TITLE, FPS, BG, BLACK, TILE_SIZE, GRASS, ROCK, DIRT, 
+from settings import *
 
 class world():
 
@@ -8,6 +9,7 @@ class world():
         self.map_path=map_path
         self.screen=screen
         self.TileManager=TileManager
+        self.collision_rects = TileManager.collision_rects
         self.load_map()
         # self.is_solid(playr.x, playr.y)
 
@@ -22,23 +24,44 @@ class world():
         
     def draw(self, screen, camera):
         for layer in self.tmx.visible_layers:
+
+            # if layer.name == "Collisions1":
+            #     continue
+        
             if hasattr(layer, "data"):
-                for x,y,gid in layer:
-                    if gid == 0:
-                        continue
+                   
+                for x in range((camera.x//TILE_SIZE),(camera.x//TILE_SIZE)+52):
+                     for y in range((camera.y//TILE_SIZE),(camera.y//TILE_SIZE)+40):
+                # for x in range((camera.x//TILE_SIZE),(self.screen_x//TILE_SIZE)+52):
+                #     for y in range((camera.y//TILE_SIZE),(self.screen_y//TILE_SIZE)+40):
 
-                    world_x = TILE_SIZE * x
-                    world_y = TILE_SIZE * y
-                    self.screen_x = world_x - camera.x
-                    self.screen_y = world_y - camera.y
+                        self.world_x = TILE_SIZE * x
+                        self.world_y = TILE_SIZE * y
+                        self.screen_x = self.world_x - camera.x
+                        self.screen_y = self.world_y - camera.y
 
-                    image = self.TileManager.get_image(gid)
+                        gid = self.get_gid(layer, x, y)
+                        if gid == 0:
+                            continue
+                    
+                        image = self.TileManager.get_image(gid)
+                        
+                        screen.blit(image, (self.screen_x, self.screen_y))
 
-                    screen.blit(image, (self.screen_x, self.screen_y))
 
+    def get_gid(self, layer, tile_x, tile_y):
 
-    def get_gid(world_x, world_y):
-        pass
+        if tile_x < 0 or tile_y < 0:
+            return 0
+
+        if tile_y >= len(layer.data):
+            return 0
+
+        if tile_x >= len(layer.data[tile_y]):
+            return 0
+        
+        gid = layer.data[tile_y][tile_x]
+        return gid
 
 
     def is_solid(self, position_x, position_y):
