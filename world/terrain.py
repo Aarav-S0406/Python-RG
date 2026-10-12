@@ -21,9 +21,14 @@ class world():
         self.tilewidth=self.tmx.tilewidth
         self.tileheight=self.tmx.tileheight
 
+    def draw_layers(self, screen, camera, layer_order):
+        pass
         
     def draw(self, screen, camera):
         for layer in self.tmx.visible_layers:
+            print(layer.name)
+            if layer.name == "Grass":
+
 
             # if layer.name == "Collisions1":
             #     continue

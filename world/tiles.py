@@ -8,6 +8,7 @@ class TileManager():
         self.collision_tiles = {}
         self.collision_rects = []
         self.map_path=map_path
+        self.animation_start = pygame.time.get_ticks()
         self.load_tiles()
         self.build_dictionary()
         self.build_collisions()
@@ -20,19 +21,41 @@ class TileManager():
         self.height=self.tmx.height
 
 
-    def build_dictionary(self):
+    # def build_dictionary(self):
      
+    #     for layer in self.tmx.visible_layers:
+    #         if hasattr(layer, "data"):
+    #             for x, y, gid in layer:
+    #                 if gid == 0:
+    #                     continue
+    #                 if gid not in self.tiles:
+    #                     self.tiles[gid] = {
+    #                         "image": self.tmx.get_tile_image_by_gid(gid),
+    #                         "properties": self.tmx.get_tile_properties_by_gid(gid)
+    #                     }
+    #     return self.tiles
+
+    
+    def build_dictionary(self):
+
         for layer in self.tmx.visible_layers:
             if hasattr(layer, "data"):
                 for x, y, gid in layer:
                     if gid == 0:
                         continue
+
                     if gid not in self.tiles:
+                        properties = (
+                            self.tmx.get_tile_properties_by_gid(gid) or {}
+                        )
+
                         self.tiles[gid] = {
                             "image": self.tmx.get_tile_image_by_gid(gid),
-                            "properties": self.tmx.get_tile_properties_by_gid(gid)
+                            "properties": properties,
                         }
+
         return self.tiles
+
 
     def build_collisions(self):
 
@@ -75,18 +98,42 @@ class TileManager():
 
             self.collision_rects.append(rect)
 
-    # def build_collisions(self):
 
-    #     for layer in self.tmx.layers:
-    #         print(
-    #             layer.name,
-    #             type(layer),
-    #             hasattr(layer, "data")
-    #         )
+    # def get_image(self, gid):
+    #     image = self.tiles[gid]["image"]
+    #     return image
 
-    def get_image(self, gid):
-        image = self.tiles[gid]["image"]
-        return image
+    
+    def get_image(self, gid):  
+
+        tile = self.tiles[gid]
+        frames = tile["properties"].get("frames", [])
+
+        # Static tile: return its normal image
+        if not frames:
+            return tile["image"]
+
+        # Calculate elapsed animation time
+        elapsed = pygame.time.get_ticks() - self.animation_start
+
+        # Total duration of one animation cycle
+        total_duration = sum(frame.duration for frame in frames)
+
+        if total_duration <= 0:
+            return tile["image"]
+
+        # Current position in the animation cycle
+        animation_time = elapsed % total_duration
+
+        # Find the frame corresponding to that time
+        for frame in frames:
+            if animation_time < frame.duration:
+                return self.tmx.get_tile_image_by_gid(frame.gid)
+
+            animation_time -= frame.duration
+
+        return self.tmx.get_tile_image_by_gid(frames[0].gid)
+
 
     def get_properties(self, gid):
         properties = self.tiles[gid]["properties"]
@@ -94,30 +141,3 @@ class TileManager():
 
     def is_solid(self, gid):
         return bool(self.tiles[gid]["properties"]["solid"])
-
-
-# pygame.init()
-# pygame.display.set_mode((1, 1))   # Tiny dummy window
-
-# tmx = pytmx.load_pygame("assets/world/Map.tmx")
-
-# tiles = {}
-
-# for layer in tmx.visible_layers:
-#     if hasattr(layer, "data"):
-#         for x, y, gid in layer:
-#             if gid == 0:
-#                 continue
-
-#             if gid not in tiles:
-#                 tiles[gid] = {
-#                     "image": tmx.get_tile_image_by_gid(gid),
-#                     "properties": tmx.get_tile_properties_by_gid(gid)
-#                 }
-
-# print(tiles)
-
-
-# tmx = pytmx.load_pygame("assets/World/Map.tmx")
-# for layer in tmx.visible_layers:
-#     print(type(layer.data))
