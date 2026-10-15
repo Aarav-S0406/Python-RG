@@ -7,13 +7,22 @@ class playr():
         self.x = SCREEN_WIDTH//2   #spawn coord
         self.y = SCREEN_HEIGHT//2
         self.screen=screen
-        self.sheet = pygame.image.load('assets/images/Player.png').convert_alpha() #sprite
+        self.sprite_paths = {
+            "idle_down": "assets/Sprites/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Down-Sheet.png",
+            "idle_up": "assets/Sprites/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Up-Sheet.png",
+            "idle_side": "assets/Sprites/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Side-Sheet.png",
+            "walk_down": "assets/Sprites/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Down-Sheet.png",
+            "walk_up": "assets/Sprites/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Up-Sheet.png",
+            "walk_side": "assets/Sprites/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Side-Sheet.png"
+        }
+        self.sheet = pygame.image.load(self.sprite_paths).convert_alpha() #sprite
         self.width = 32  #sprite dimensions
         self.height = 32
         self.collision_width = 18
         self.collision_height = 12
         self.scale = 1.3   #sprite scale
         self.color = BLACK
+        self.direction = 0
         #animation
         self.frame = 0   #tracks frame number of each animation
         self.action = 0  #switches between different player action sprites
@@ -41,7 +50,7 @@ class playr():
         for animation in self.animation_steps:
             temp_img_list = []
             for _ in range(animation):
-                temp_img_list.append(self.get_image(self.step_counter, 32, 32, 3, BLACK))
+                temp_img_list.append(self.get_image(self.step_counter, 32, 32, self.scale, BLACK))
                 self.step_counter+=1
             self.animation_list.append(temp_img_list)
 
@@ -64,23 +73,28 @@ class playr():
 
         if keys[pygame.K_w]:
             self.action = 5
+            self.direction = 1
             dy = -self.speed
 
         elif keys[pygame.K_s]:
             self.action = 3
+            self.direction = 2
             dy = self.speed
 
         elif keys[pygame.K_a]:
             self.action = 4
+            self.direction = 3
             dx = -self.speed
 
         elif keys[pygame.K_d]:
             self.action = 4
+            self.direction = 4
             dx = self.speed
 
         else:
             if self.action <= 0:
                 self.action = 0
+                self.direction = 
             else:
                 self.action -= 2
 

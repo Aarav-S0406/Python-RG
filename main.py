@@ -21,13 +21,25 @@ map=world("assets/World/Map.tmx",
 running=True
 clock=pygame.time.Clock()
 
+
+
 while running:
     clock.tick(FPS)
 
     for event in pygame.event.get():
 
-        if event.type==pygame.QUIT:
-            running=False
+        if event.type == pygame.QUIT:
+            running = False
+
+        if event.type == pygame.KEYDOWN:
+            if event.type == pygame.K_e:
+                print("E pressed")
+
+
+        # TODO: Detect E key pressed here
+
+    # 2. UPDATE
+    # TODO: Find the current interactable target here
 
     screen.fill(BG)
 
@@ -37,7 +49,10 @@ while running:
     map.draw_layers(screen, cmr1, map.background_layers)
     plr1.draw(screen, cmr1)
     map.draw_layers(screen, cmr1, map.foreground_layers)
+
     plr1.movement(map)
-    
+
+    # 4. DRAW UI
+    # TODO: Draw "E - Interact" prompt here
 
     pygame.display.flip()
