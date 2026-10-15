@@ -34,8 +34,9 @@ while running:
     cmr1.update(plr1)
     plr1.update()
 
-    map.draw(screen, cmr1)
+    map.draw_layers(screen, cmr1, map.background_layers)
     plr1.draw(screen, cmr1)
+    map.draw_layers(screen, cmr1, map.foreground_layers)
     plr1.movement(map)
     
 

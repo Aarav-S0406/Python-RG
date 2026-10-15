@@ -12,28 +12,12 @@ class TileManager():
         self.load_tiles()
         self.build_dictionary()
         self.build_collisions()
-  
 
 
     def load_tiles(self):
         self.tmx = pytmx.load_pygame(self.map_path)
         self.width=self.tmx.width
         self.height=self.tmx.height
-
-
-    # def build_dictionary(self):
-     
-    #     for layer in self.tmx.visible_layers:
-    #         if hasattr(layer, "data"):
-    #             for x, y, gid in layer:
-    #                 if gid == 0:
-    #                     continue
-    #                 if gid not in self.tiles:
-    #                     self.tiles[gid] = {
-    #                         "image": self.tmx.get_tile_image_by_gid(gid),
-    #                         "properties": self.tmx.get_tile_properties_by_gid(gid)
-    #                     }
-    #     return self.tiles
 
     
     def build_dictionary(self):
@@ -97,11 +81,6 @@ class TileManager():
             )
 
             self.collision_rects.append(rect)
-
-
-    # def get_image(self, gid):
-    #     image = self.tiles[gid]["image"]
-    #     return image
 
     
     def get_image(self, gid):  
